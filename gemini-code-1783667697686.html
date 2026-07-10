@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krish Fitness Studio | Best Gym & Personal Training in Mira Road</title>
+    <meta name="description" content="Achieve your fitness goals with personalized training, weight loss programs, strength training, yoga, and nutrition guidance at Krish Fitness Studio in Mira Road.">
+    <meta name="keywords" content="Gym in Mira Road, Fitness Studio Mira Road, Personal Trainer Mira Road, Weight Loss Gym Mira Road, Best Gym in Mira Road, Functional Training Mira Road, Yoga Classes Mira Road">
+    
+    <!-- Open Graph SEO Tags -->
+    <meta property="og:title" content="Krish Fitness Studio | Best Gym in Mira Road">
+    <meta property="og:description" content="Transform Your Body. Transform Your Life.">
+    <meta property="og:type" content="website">
+
+    <!-- Tailwind CSS Play CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            white: '#FFFFFF',
+                            pink: '#FF2E88',
+                            lightPink: '#FFE5F0',
+                            charcoal: '#222222',
+                        }
+                    },
+                    fontFamily: {
+                        heading: ['Poppins', 'sans-serif'],
+                        body: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@700;800&display=swap" rel="stylesheet">
+
+    <style>
+        /* Smooth Custom Active Transitions */
+        .glassmorphism {
+            background: rgba(255, 255, 255, 0.45);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+        }
+    </style>
+</head>
+<body class="bg-brand-white text-brand-charcoal font-body antialiased selection:bg-brand-pink selection:text-white">
+
+    <!-- Sticky Navigation Header -->
+    <header id="main-header" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-white/80 backdrop-blur-md shadow-sm border-b border-brand-lightPink/40 py-4">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
+            <div class="text-xl sm:text-2xl font-heading font-extrabold tracking-tight text-brand-charcoal">
+                KRISH<span class="text-brand-pink">FITNESS</span>
+            </div>
+            <nav class="hidden md:flex space-x-8 font-medium text-sm">
+                <a href="#about" class="hover:text-brand-pink transition-colors">Why Choose Us</a>
+                <a href="#services" class="hover:text-brand-pink transition-colors">Services</a>
+                <a href="#pricing" class="hover:text-brand-pink transition-colors">Memberships</a>
+                <a href="#faq" class="hover:text-brand-pink transition-colors">FAQs</a>
+                <a href="#contact" class="hover:text-brand-pink transition-colors">Contact</a>
+            </nav>
+            <div class="flex items-center space-x-3">
+                <a href="#contact" class="bg-brand-pink text-white px-5 py-2.5 rounded-full text-xs sm:text-sm font-semibold tracking-wide shadow-md shadow-brand-pink/20 hover:bg-opacity-90 transition-all transform hover:-translate-y-0.5">
+                    Book Free Trial
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative min-h-screen flex items-center justify-center bg-brand-charcoal overflow-hidden pt-20">
+        <!-- Stock Fitness Visual Background Element Overlay -->
+        <div class="absolute inset-0 z-0 opacity-30 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&q=80');"></div>
+        <div class="absolute inset-0 bg-gradient-to-t from-brand-charcoal via-transparent to-brand-charcoal/60 z-0"></div>
+
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white mt-8">
+            <span class="inline-block text-brand-pink font-semibold uppercase tracking-widest text-xs mb-4 bg-brand-pink/10 px-4 py-1.5 rounded-full backdrop-blur-sm border border-brand-pink/20">
+                Transform Your Body. Transform Your Life.
+            </span>
+            
+            <h1 class="text-4xl sm:text-6xl lg:text-7xl font-heading font-extrabold tracking-tight mb-6 max-w-4xl mx-auto leading-tight">
+                Your Transformation <br><span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-pink to-white">Starts Here</span>
+            </h1>
+
+            <p class="text-gray-300 text-base sm:text-lg max-w-2xl mx-auto mb-10 font-normal leading-relaxed">
+                Join Mira Road's trusted high-end fitness studio for personalized training, weight loss, strength building, yoga, and functional fitness.
+            </p>
+
+            <div class="flex flex-col sm:flex-row justify-center items-center gap-4 mb-16 max-w-sm mx-auto sm:max-w-none">
+                <a href="#contact" class="w-full sm:w-auto bg-brand-pink text-white font-semibold px-8 py-4 rounded-full shadow-lg shadow-brand-pink/30 hover:bg-opacity-90 transition-all text-center text-sm">
+                    Book Free Trial
+                </a>
+                <a href="https://wa.me/917045091211" target="_blank" rel="noreferrer" class="w-full sm:w-auto bg-white/10 hover:bg-white/20 text-white font-semibold px-8 py-4 rounded-full backdrop-blur-md transition-all border border-white/20 text-center text-sm">
+                    WhatsApp Us
+                </a>
+            </div>
+
+            <!-- Dynamic Counters / Stats Grid -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 pt-8 border-t border-white/10 max-w-4xl mx-auto">
+                <div class="text-center">
+                    <div class="text-2xl sm:text-3xl font-heading font-bold text-brand-pink">500+</div>
+                    <div class="text-xs text-gray-400 mt-1">Happy Members</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-2xl sm:text-3xl font-heading font-bold text-brand-pink">100+</div>
+                    <div class="text-xs text-gray-400 mt-1">Transformations</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-2xl sm:text-3xl font-heading font-bold text-brand-pink">Certified</div>
+                    <div class="text-xs text-gray-400 mt-1">Expert Trainers</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-2xl sm:text-3xl font-heading font-bold text-brand-pink">Custom</div>
+                    <div class="text-xs text-gray-400 mt-1">Fitness Plans</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section (Why Choose Us) -->
+    <section id="about" class="py-24 bg-brand-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-3xl sm:text-4xl font-heading font-extrabold text-brand-charcoal mb-4">
+                    Why Choose Krish Fitness Studio?
+                </h2>
+                <p class="text-gray-600 leading-relaxed text-base sm:text-lg">
+                    At Krish Fitness Studio, we believe fitness is a lifestyle, not a temporary goal. We provide expert guidance, customized workout plans, nutrition support, and continuous motivation to help every member achieve lasting results.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
+                <div class="p-6 bg-brand-lightPink/30 rounded-2xl border border-brand-lightPink flex flex-col items-center text-center transform hover:-translate-y-1 transition-all duration-300">
+                    <div class="text-3xl mb-3">🏋️‍♂️</div>
+                    <h3 class="font-heading font-bold text-brand-charcoal text-sm sm:text-base">Certified Trainers</h3>
+                </div>
+                <div class="p-6 bg-brand-lightPink/30 rounded-2xl border border-brand-lightPink flex flex-col items-center text-center transform hover:-translate-y-1 transition-all duration-300">
+                    <div class="text-3xl mb-3">📋</div>
+                    <h3 class="font-heading font-bold text-brand-charcoal text-sm sm:text-base">Personalized Coaching</h3>
+                </div>
+                <div class="p-6 bg-brand-lightPink/30 rounded-2xl border border-brand-lightPink flex flex-col items-center text-center transform hover:-translate-y-1 transition-all duration-300">
+                    <div class="text-3xl mb-3">🤝</div>
+                    <h3 class="font-heading font-bold text-brand-charcoal text-sm sm:text-base">Friendly Environment</h3>
+                </div>
+                <div class="p-6 bg-brand-lightPink/30 rounded-2xl border border-brand-lightPink flex flex-col items-center text-center transform hover:-translate-y-1 transition-all duration-300">
+                    <div class="text-3xl mb-3">💪</div>
+                    <h3 class="font-heading font-bold text-brand-charcoal text-sm sm:text-base">Modern Equipment</h3>
+                </div>
+                <div class="p-6 bg-brand-lightPink/30 rounded-2xl border border-brand-lightPink flex flex-col items-center text-center transform hover:-translate-y-1 transition-all duration-300">
+                    <div class="text-3xl mb-3">⏰</div>
+                    <h3 class="font-heading font-bold text-brand-charcoal text-sm sm:text-base">Flexible Timings</h3>
+                </div>
+                <div class="p-6 bg-brand-lightPink/30 rounded-2xl border border-brand-lightPink flex flex-col items-center text-center transform hover:-translate-y-1 transition-all duration-300">
+                    <div class="text-3xl mb-3">💎</div>
+                    <h3 class="font-heading font-bold text-brand-charcoal text-sm sm:text-base">Affordable Memberships</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Grid Section -->
+    <section id="services" class="py-24 bg-brand-lightPink/20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl sm:text-4xl font-heading font-extrabold text-brand-charcoal">Our Premium Services</h2>
+                <p class="text-gray-500 mt-2 text-sm">Expertly curated fitness methodologies tailored around your dynamic targets.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+                <!-- Card Component Generation -->
+                <div class="bg-white p-8 rounded-2xl border border-brand-lightPink hover:border-brand-pink/30 hover:shadow-xl hover:shadow-brand-pink/5 transition-all duration-300 flex flex-col justify-between group">
+                    <div>
+                        <div class="h-12 w-12 rounded-xl bg-brand-lightPink/60 flex items-center justify-center text-brand-pink font-bold text-lg mb-6 group-hover:bg-brand-pink group-hover:text-white transition-all duration-300">01</div>
+                        <h3 class="text-xl font-heading font-bold text-brand-charcoal mb-3">Weight Loss Programs</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed mb-6">Tailored fitness tracking built entirely to enhance metabolic output metrics safely.</p>
+                    </div>
+                    <a href="#contact" class="text-brand-pink font-semibold text-sm inline-flex items-center group-hover:underline">Learn More <span class="ml-1 text-xs">➔</span></a>
+                </div>
+
+                <div class="bg-white p-8 rounded-2xl border border-brand-lightPink hover:border-brand-pink/30 hover:shadow-xl hover:shadow-brand-pink/5 transition-all duration-300 flex flex-col justify-between group">
+                    <div>
+                        <div class="h-12 w-12 rounded-xl bg-brand-lightPink/60 flex items-center justify-center text-brand-pink font-bold text-lg mb-6 group-hover:bg-brand-pink group-hover:text-white transition-all duration-300">02</div>
+                        <h3 class="text-xl font-heading font-bold text-brand-charcoal mb-3">Personal Training</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed mb-6">Dedicated 1-on-1 performance strategy mapped down to your precise structural biomechanics.</p>
+                    </div>
+                    <a href="#contact" class="text-brand-pink font-semibold text-sm inline-flex items-center group-hover:underline">Learn More <span class="ml-1 text-xs">➔</span></a>
+                </div>
+
+                <div class="bg-white p-8 rounded-2xl border border-brand-lightPink hover:border-brand-pink/30 hover:shadow-xl hover:shadow-brand-pink/5 transition-all duration-300 flex flex-col justify-between group">
+                    <div>
+                        <div class="h-12 w-12 rounded-xl bg-brand-lightPink/60 flex items-center justify-center text-brand-pink font-bold text-lg mb-6 group-hover:bg-brand-pink group-hover:text-white transition-all duration-300">03</div>
+                        <h3 class="text-xl font-heading font-bold text-brand-charcoal mb-3">Strength & Functional</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed mb-6">Develop optimal structural athletic foundations, absolute posture balance, and core power output.</p>
+                    </div>
+                    <a href="#contact" class="text-brand-pink font-semibold text-sm inline-flex items-center group-hover:underline">Learn More <span class="ml-1 text-xs">➔</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Membership Plans Section -->
+    <section id="pricing" class="py-24 bg-brand-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl sm:text-4xl font-heading font-extrabold text-brand-charcoal">Membership Plans</h2>
+                <p class="text-gray-500 mt-2 text-sm">Select the program targeted to unlock your true aesthetic evolution metrics.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch max-w-5xl mx-auto">
+                <!-- Starter Tier Card -->
+                <div class="rounded-3xl p-8 flex flex-col justify-between border border-brand-lightPink bg-brand-lightPink/10 hover:shadow-lg transition-all">
+                    <div>
+                        <h3 class="text-xl font-heading font-bold text-brand-charcoal mb-2">Starter</h3>
+                        <div class="text-2xl font-heading font-extrabold text-brand-pink mb-6">Flexible</div>
+                        <ul class="space-y-4 mb-8 text-sm text-gray-700">
+                            <li class="flex items-center"><span class="text-brand-pink mr-2 font-bold">✓</span> Gym Access</li>
+                            <li class="flex items-center"><span class="text-brand-pink mr-2 font-bold">✓</span> Basic System Guidance</li>
+                        </ul>
+                    </div>
+                    <a href="#contact" class="w-full py-3 rounded-xl text-center font-semibold text-sm bg-brand-charcoal text-white hover:bg-opacity-90 transition-all">Join Now</a>
+                </div>
+
+                <!-- Popular Tier Card (Highlighted) -->
+                <div class="rounded-3xl p-8 flex flex-col justify-between border-2 border-brand-pink bg-white shadow-xl relative transform md:scale-105 z-10">
+                    <span class="absolute top-0 right-1/2 translate-x-1/2 -translate-y-1/2 bg-brand-pink text-white text-[10px] font-bold uppercase tracking-widest px-4 py-1 rounded-full">Most Popular</span>
+                    <div>
+                        <h3 class="text-xl font-heading font-bold text-brand-charcoal mb-2">Popular</h3>
+                        <div class="text-2xl font-heading font-extrabold text-brand-pink mb-6">Best Value</div>
+                        <ul class="space-y-4 mb-8 text-sm text-gray-700">
+                            <li class="flex items-center"><span class="text-brand-pink mr-2 font-bold">✓</span> Personal Training Focus</li>
+                            <li class="flex items-center"><span class="text-brand-pink mr-2 font-bold">✓</span> Diet Consultation</li>
+                            <li class="flex items-center"><span class="text-brand-pink mr-2 font-bold">✓</span> Monthly Assessment</li>
+                        </ul>
+                    </div>
+                    <a href="#contact" class="w-full py-3 rounded-xl text-center font-semibold text-sm bg-brand-pink text-white shadow-md shadow-brand-pink/20 hover:bg-opacity-90 transition-all">Join Now</a>
+                </div>
+
+                <!-- Elite Tier Card -->
+                <div class="rounded-3xl p-8 flex flex-col justify-between border border-brand-lightPink bg-brand-lightPink/10 hover:shadow-lg transition-all">
+                    <div>
+                        <h3 class="text-xl font-heading font-bold text-brand-charcoal mb-2">Elite</h3>
+                        <div class="text-2xl font-heading font-extrabold text-brand-pink mb-6">Full Package</div>
+                        <ul class="space-y-4 mb-8 text-sm text-gray-700">
+                            <li class="flex items-center"><span class="text-brand-pink mr-2 font-bold">✓</span> Complete Transformation</li>
+                            <li class="flex items-center"><span class="text-brand-pink mr-2 font-bold">✓</span> Dedicated Coach Support</li>
+                            <li class="flex items-center"><span class="text-brand-pink mr-2 font-bold">✓</span> Custom Nutrition Matrix</li>
+                        </ul>
+                    </div>
+                    <a href="#contact" class="w-full py-3 rounded-xl text-center font-semibold text-sm bg-brand-charcoal text-white hover:bg-opacity-90 transition-all">Join Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials / Client Stories -->
+    <section class="py-24 bg-brand-charcoal text-white">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-heading font-bold mb-12">Client Success Stories</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
+                <div class="bg-white/5 border border-white/10 rounded-2xl p-8 backdrop-blur-sm">
+                    <div class="text-brand-pink text-sm tracking-wide mb-4">★★★★★</div>
+                    <p class="text-gray-300 italic text-sm leading-relaxed mb-6">"Lost 12kg in 3 months safely! The certified trainers mapped out tracking parameters perfectly suited around my routine parameters."</p>
+                    <div class="flex items-center justify-between border-t border-white/10 pt-4 text-xs">
+                        <span class="font-semibold text-white">Rahul Sharma</span>
+                        <span class="bg-brand-pink/20 text-brand-pink px-3 py-1 rounded-full font-bold uppercase tracking-wider">12kg Lost</span>
+                    </div>
+                </div>
+
+                <div class="bg-white/5 border border-white/10 rounded-2xl p-8 backdrop-blur-sm">
+                    <div class="text-brand-pink text-sm tracking-wide mb-4">★★★★★</div>
+                    <p class="text-gray-300 italic text-sm leading-relaxed mb-6">"Elite studio standard layout right here in Mira Road. The customizable lifestyle diet plan architectures were highly effective."</p>
+                    <div class="flex items-center justify-between border-t border-white/10 pt-4 text-xs">
+                        <span class="font-semibold text-white">Priya Patel</span>
+                        <span class="bg-brand-pink/20 text-brand-pink px-3 py-1 rounded-full font-bold uppercase tracking-wider">Muscle Tone</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Accordion FAQ Section -->
+    <section id="faq" class="py-24 bg-brand-white">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-heading font-bold text-center text-brand-charcoal mb-12">Frequently Asked Questions</h2>
+            <div class="space-y-4">
+                <div class="border border-brand-lightPink rounded-xl overflow-hidden">
+                    <button onclick="toggleFaq(this)" class="w-full text-left p-5 font-semibold text-sm sm:text-base text-brand-charcoal bg-brand-lightPink/10 hover:bg-brand-lightPink/20 flex justify-between items-center transition-all">
+                        <span>Do you offer personal training?</span>
+                        <span class="text-brand-pink font-bold">+</span>
+                    </button>
+                    <div class="hidden p-5 text-gray-600 bg-white border-t border-brand-lightPink text-xs sm:text-sm leading-relaxed">
+                        Yes, we offer specialized 1-on-1 personal training configurations curated perfectly around your somatic composition target metrics.
+                    </div>
+                </div>
+
+                <div class="border border-brand-lightPink rounded-xl overflow-hidden">
+                    <button onclick="toggleFaq(this)" class="w-full text-left p-5 font-semibold text-sm sm:text-base text-brand-charcoal bg-brand-lightPink/10 hover:bg-brand-lightPink/20 flex justify-between items-center transition-all">
+                        <span>Is there a free trial session available?</span>
+                        <span class="text-brand-pink font-bold">+</span>
+                    </button>
+                    <div class="hidden p-5 text-gray-600 bg-white border-t border-brand-lightPink text-xs sm:text-sm leading-relaxed">
+                        Yes, completely. You can book a custom complimentary trial session layout using our contact application page above.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Conversion Registration Contact Layout -->
+    <section id="contact" class="py-24 bg-brand-lightPink/20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
+                <!-- Contact Meta Detail Blocks -->
+                <div class="flex flex-col justify-between">
+                    <div>
+                        <h2 class="text-3xl sm:text-4xl font-heading font-extrabold text-brand-charcoal mb-6">Start Your Transformation</h2>
+                        <p class="text-gray-600 mb-8 leading-relaxed text-sm sm:text-base">Connect with our support team or book a structural facility walkthrough session directly below.</p>
+                        
+                        <div class="space-y-6 text-sm mb-8">
+                            <p class="flex items-start">
+                                <span class="text-brand-pink mr-3 font-bold text-base">📍</span>
+                                <span class="text-gray-700">Shop No. 27, Vasudev Sky High, Overhead Tank Road, Kanakia, Beverly Park, Mira Road East, Mumbai – 401107</span>
+                            </p>
+                            <p class="flex items-center">
+                                <span class="text-brand-pink mr-3 font-bold text-base">📞</span>
+                                <span class="text-gray-700">+91 70450 91211</span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Clean Mock Graphic Map Workspace UI placeholder -->
+                    <div class="w-full h-60 bg-gray-200/80 rounded-2xl border border-brand-lightPink/60 flex items-center justify-center text-gray-400 text-xs text-center px-6">
+                        [ Google Maps View Container Area - Kanakia Road Neighborhood Location Link Mapping ]
+                    </div>
+                </div>
+
+                <!-- Registration Intake Card UI -->
+                <div class="bg-white p-6 sm:p-8 rounded-3xl border border-brand-lightPink shadow-xl shadow-brand-lightPink/30">
+                    <form onsubmit="event.preventDefault(); alert('Trial booked successfully! Our trainers will contact you shortly.');" class="space-y-5">
+                        <div>
+                            <label class="block text-[10px] font-bold text-gray-500 uppercase tracking-wider mb-2">Full Name</label>
+                            <input type="text" required class="w-full px-4 py-3 bg-brand-lightPink/10 border border-brand-lightPink rounded-xl focus:outline-none focus:border-brand-pink text-xs sm:text-sm text-brand-charcoal transition-all" placeholder="Enter full name" />
+                        </div>
+                        <div>
+                            <label class="block text-[10px] font-bold text-gray-500 uppercase tracking-wider mb-2">Phone Number</label>
+                            <input type="tel" required class="w-full px-4 py-3 bg-brand-lightPink/10 border border-brand-lightPink rounded-xl focus:outline-none focus:border-brand-pink text-xs sm:text-sm text-brand-charcoal transition-all" placeholder="+91 XXXXX XXXXX" />
+                        </div>
+                        <div>
+                            <label class="block text-[10px] font-bold text-gray-500 uppercase tracking-wider mb-2">Main Fitness Objective</label>
+                            <select class="w-full px-4 py-3 bg-brand-lightPink/10 border border-brand-lightPink rounded-xl focus:outline-none focus:border-brand-pink text-xs sm:text-sm text-brand-charcoal transition-all">
+                                <option>Weight Loss Management</option>
+                                <option>Absolute Muscle Architecture</option>
+                                <option>Yoga & Flexible Core</option>
+                                <option>General Athletic Mobility</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-[10px] font-bold text-gray-500 uppercase tracking-wider mb-2">Message</label>
+                            <textarea rows="3" class="w-full px-4 py-3 bg-brand-lightPink/10 border border-brand-lightPink rounded-xl focus:outline-none focus:border-brand-pink text-xs sm:text-sm text-brand-charcoal transition-all" placeholder="Tell us about yourself..."></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-brand-pink text-white font-bold py-4 rounded-xl shadow-lg shadow-brand-pink/20 hover:bg-opacity-90 transition-all text-xs tracking-widest uppercase">
+                            Start My Transformation
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Structural Utility Footer -->
+    <footer class="bg-brand-charcoal text-white pt-16 pb-8 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+            <div>
+                <h3 class="text-lg font-heading font-bold mb-4 text-white tracking-wide">KRISH FITNESS</h3>
+                <p class="text-gray-400 text-xs leading-relaxed max-w-xs">Transform Your Body. Transform Your Life. Mira Road's premium high-performance luxury boutique experience.</p>
+            </div>
+            <div>
+                <h4 class="text-xs font-bold uppercase tracking-widest mb-4 text-brand-pink">Quick Navigation</h4>
+                <ul class="space-y-2 text-xs text-gray-400">
+                    <li><a href="#about" class="hover:text-white transition-colors">About Facility</a></li>
+                    <li><a href="#pricing" class="hover:text-white transition-colors">Pricing Metrics</a></li>
+                    <li><a href="#contact" class="hover:text-white transition-colors">Location Space</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-xs font-bold uppercase tracking-widest mb-4 text-brand-pink">Focus Streams</h4>
+                <ul class="space-y-2 text-xs text-gray-400">
+                    <li>Weight Reduction Strategy</li>
+                    <li>Individual Personal Coaching</li>
+                    <li>Yoga Breath Alignment</li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-xs font-bold uppercase tracking-widest mb-4 text-brand-pink">Privacy & Terms</h4>
+                <ul class="space-y-2 text-xs text-gray-400">
+                    <li><a href="#" class="hover:text-white transition-colors">Privacy Policy</a></li>
+                    <li><a href="#" class="hover:text-white transition-colors">Terms of Use</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-t border-gray-800/60 pt-8 text-center text-[11px] text-gray-500">
+            <p>&copy; <span id="year-target"></span> Krish Fitness Studio. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Interactive Script Mechanics Controller -->
+    <script>
+        // Update copyright year dynamically
+        document.getElementById('year-target').textContent = new Date().getFullYear();
+
+        // Toggling FAQ elements micro-interactions
+        function toggleFaq(button) {
+            const contentPanel = button.nextElementSibling;
+            const statusIndicator = button.querySelector('span:last-child');
+            
+            contentPanel.classList.toggle('hidden');
+            if (contentPanel.classList.contains('hidden')) {
+                statusIndicator.textContent = '+';
+            } else {
+                statusIndicator.textContent = '−';
+            }
+        }
+    </script>
+</body>
+</html>
